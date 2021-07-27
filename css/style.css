@@ -1,0 +1,40 @@
+body{
+    background-image: url("../img/bgmi.jpg");
+    max-height: auto;
+}
+.three{
+    grid-template-columns: repeat(3, auto);
+}
+.two{
+    grid-template-columns: repeat(2,auto);
+}
+.three, .two, .one {
+display: grid;
+grid-gap: 100px;
+margin-top: 1vh;
+justify-content: center;
+width: 100%;
+}
+p{
+    font-size: 45px;
+}
+#label{
+    display: block;
+}
+b1{
+    color: orangered;
+}
+b2{
+    color: white;
+}
+b3{
+    color: green;
+}
+#all{
+    text-align: center;
+}
+.three ,iframe{
+    margin:  auto;
+    border-radius: 10%;
+       
+}
